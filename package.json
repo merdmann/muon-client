@@ -28,6 +28,7 @@
   "dependencies": {
     "bootstrap": "^3.3.6",
     "electron-stylus": "^0.1.1",
-    "nconf": "^0.8.2"
+    "nconf": "^0.8.2",
+    "stylus": "^0.53.0"
   }
 }
