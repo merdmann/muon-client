@@ -35,9 +35,11 @@ api.initialize({
 });
 
 setInterval(function() {
-  api.getConfigData('D1', 90, null, null, function(from, till, min, max, count) {
+  api.getConfigData('D1', 90, null, null, function(begin, end, min, max, count) {
     console.log(count);
 
-    $('#count').text(count + " " + from + " " + till);
+    $('#count').text(count);
+    $('#begin').text(begin);
+    $('#end').text(end);
   });
 }, 10000);
